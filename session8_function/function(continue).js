@@ -170,7 +170,7 @@ for (let phone of phones) {
     lowerCase.push(phone.name.toLowerCase());
 }
 
-lowerCase = lowerCase.sort();
+lowerCase.sort();
 
 for (let i = 0; i < lowerCase.length; i++) {
     for (let j = 0; j < phones.length; j++) {
@@ -186,7 +186,7 @@ print(sortedName);
 // 10. Sắp xếp đt theo giá cao -> thấp
 let sortedPrice = [];
 
-prices = prices.sort(function (a, b) {
+prices.sort(function (a, b) {
     return b - a;
 });
 
