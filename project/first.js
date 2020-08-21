@@ -1,0 +1,1 @@
+document.getElementById("welcome").innerHTML += ", " + prompt("Bạn tên gì nhỉ?") + "!";
